@@ -7,4 +7,4 @@ How to run the tests:
 
    2.a. To run all the tests in the project headlessly: 'npx cypress run'. 
    
-   2.b. To run a specific test file: 'npx cypress run --spec "cypress/integration/my-test.spec.js"'
+   2.b. To run a specific test file: 'npx cypress run --spec "cypress/e2e/contactForm-spec.js
