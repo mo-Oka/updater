@@ -1,0 +1,12 @@
+{
+  "contactType": "Transferee",
+  "customerNumber": "123456",
+  "lastName": "Smith",
+  "firstName": "John",
+  "officePhone": "123-456-7890",
+  "homePhone": "987-654-3210",
+  "primaryEmail": "john.smith@example.com",
+  "mobilePhone": "555-555-5555",
+  "department": "Sales",
+  "secondaryEmail": "jsmith@example.com"
+}
