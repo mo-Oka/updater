@@ -3,7 +3,7 @@ const testData = require('../fixtures/contactForm.json')
 
 describe('Creating New Contact Form', () => {
     beforeEach(() => {
-        cy.visit('/new-contact'); // this will extent the base url from cypress.json
+        cy.visit('/new-contact'); // this will extent the base url from cypress config
     });
 
     it('should display the correct title', () => {
