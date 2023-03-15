@@ -11,16 +11,16 @@ describe('Creating New Contact Form', () => {
     });
 
     it('should display the correct fields', () => {
-        cy.get('label').should('contain', 'Contact Type');
-        cy.get('label').should('contain', 'Customer Number');
-        cy.get('label').should('contain', 'First Name');
-        cy.get('label').should('contain', 'Office Phone');
-        cy.get('label').should('contain', 'Home Phone');
-        cy.get('label').should('contain', 'Primary Email');
-        cy.get('label').should('contain', 'Last Name');
-        cy.get('label').should('contain', 'Mobile Phone');
-        cy.get('label').should('contain', 'Department');
-        cy.get('label').should('contain', 'Secondary Email');
+        cy.get('label[for="contact-type"]').should('contain', 'Contact Type');
+        cy.get('label[for="customer-number"]').should('contain', 'Customer Number');
+        cy.get('label[for="first-name"]').should('contain', 'First Name');
+        cy.get('label[for="office-phone"]').should('contain', 'Office Phone');
+        cy.get('label[for="home-phone"]').should('contain', 'Home Phone');
+        cy.get('label[for="primary-email"]').should('contain', 'Primary Email');
+        cy.get('label[for="last-name"]').should('contain', 'Last Name');
+        cy.get('label[for="mobile-phone"]').should('contain', 'Mobile Phone');
+        cy.get('label[for="department"]').should('contain', 'Department');
+        cy.get('label[for="secondary-email"]').should('contain', 'Secondary Email');
     });
 
     it('should require Contact Type in the Custom Information section', () => {
