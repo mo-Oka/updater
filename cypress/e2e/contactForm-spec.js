@@ -79,6 +79,6 @@ describe('Negative scenarios for New Contact Form', () => {
     it('the form correctly handles special characters in input fields', () => {});
     it('the form correctly handles long input strings or has max characters limit', () => {});
     it('the form does not allow duplicate entries', () => {});
-    it('the form correctly handles multiple optional fields with the same name', () => {});
+    it('the form correctly handles multiple optional fields with the same value', () => {});
 })
 
