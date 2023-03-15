@@ -2,7 +2,7 @@ const testData = require('../fixtures/contactForm.json')
 // in a real project all locators also would be in a separate file
 
 describe('Creating New Contact Form', () => {
-    beforeEach(() => {
+    beforeAll(() => {
         cy.visit('/new-contact'); // this will extent the base url from cypress config
     });
 
